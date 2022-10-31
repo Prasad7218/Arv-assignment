@@ -1,0 +1,10 @@
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:300px;
+}
+.head{
+    text-align: center;
+    color:blue;
+}
