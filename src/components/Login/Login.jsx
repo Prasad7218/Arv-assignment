@@ -15,6 +15,11 @@ const Login=()=>{
             setPassword(perpass);
         }
     }
+
+    const login=()=>{
+        let data={email,password};
+        console.log(data);
+    }
     return(
         <>
         <h1 className="head">cognifi</h1>
@@ -30,6 +35,7 @@ const Login=()=>{
         </div>
         </form>
         <Home msg={email} />
+        <button onClick={login}>Login</button>
         </>
     )
 }

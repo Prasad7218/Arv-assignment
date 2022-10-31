@@ -28,6 +28,8 @@ const Register = () => {
 }
 
 const regUser=()=>{
+    let item={name,email,password,mno};
+    console.log(item);
 
 }
   return (
